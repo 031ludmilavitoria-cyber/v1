@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #ffe4ec, #fff0f5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CONTAINER */
+.container {
+    text-align: center;
+}
+
+/* LOGO */
+.logo img {
+    width: 80px;
+}
+
+.logo h1 {
+    color: #d63384;
+    margin-top: 5px;
+}
+
+.logo span {
+    font-size: 12px;
+    color: #999;
+    letter-spacing: 2px;
+}
+
+/* CARD */
+.card {
+    margin-top: 20px;
+    background: #fff;
+    padding: 40px;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(255, 105, 180, 0.2);
+}
+
+.card h2 {
+    margin-bottom: 25px;
+    color: #6c3483;
+}
+
+/* INPUTS */
+.input-group {
+    display: flex;
+    align-items: center;
+    background: #f5f5f5;
+    border-radius: 12px;
+    padding: 12px;
+    margin-bottom: 15px;
+}
+
+.input-group i {
+    margin-right: 10px;
+    color: #d63384;
+}
+
+.input-group input {
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 100%;
+}
+
+/* LABEL */
+.confirm {
+    display: block;
+    text-align: left;
+    margin: 10px 0;
+    color: #555;
+}
+
+/* CHECKBOX */
+.options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: 15px 0;
+}
+
+/* BOTÕES */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #ff4da6, #d63384);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.btn-secondary {
+    background: #eee;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.btn-secondary:hover {
+    background: #ddd;
+}
+
+.btn-primary:hover {
+    opacity: 0.9;
+}

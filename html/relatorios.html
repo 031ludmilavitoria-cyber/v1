@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Relatórios</title>
+<link rel="stylesheet" href="../css/relatoris.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+    <div class="logo">
+        <img src="logo.png" alt="logo">
+        <div>
+            <h1>Bio Planner</h1>
+            <span>BIOMEDICINA ESTÉTICA</span>
+        </div>
+    </div>
+
+    <nav>
+        <a href="telainicialbio.html">Inicio </a>
+        <a href="teladepacienteBIO.html">Pacientes</a>
+        <a href="examesbio.html" class="active">Exames</a>
+        <a href="resultados.html">Resultados</a>
+        <a href="relatorios.html">Relatórios</a>
+        <a href="telaconfigbio.html">Configurações</a>
+    </nav>
+
+    <div class="user">
+        <span>🔔</span>
+        <div class="perfil">
+            <img src="user.jpg">
+            <div>
+                <strong>Dra. Juliana Martins</strong>
+                <p>Biomédica Esteta</p>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main class="content">
+
+    <div class="header">
+        <div>
+            <h1>Relatórios de Procedimentos</h1>
+            <p>Visão geral dos valores e estatísticas</p>
+        </div>
+        <button class="btn">Exportar Relatório</button>
+    </div>
+
+    <!-- FILTROS -->
+    <div class="filters">
+        <span>📅 Últimos 30 dias</span>
+        <span>Filtros</span>
+        <span>Ordenar: Maior valor</span>
+    </div>
+
+    <div class="grid">
+
+        <!-- LADO ESQUERDO -->
+        <div class="summary">
+            <div class="box">
+                <h4>Total faturado</h4>
+                <strong>R$ 15.370</strong>
+            </div>
+
+            <div class="box">
+                <h4>Procedimentos</h4>
+                <strong>83</strong>
+            </div>
+
+            <div class="box">
+                <h4>Ticket médio</h4>
+                <strong>R$ 185</strong>
+            </div>
+        </div>
+
+        <!-- TABELA -->
+        <div class="table">
+            <div class="row header-row">
+                <span>Procedimento</span>
+                <span>Qtd</span>
+                <span>Faturamento</span>
+            </div>
+
+            <div class="row">
+                <span>Botox</span>
+                <span>15</span>
+                <span class="money">R$ 17.250</span>
+            </div>
+
+            <div class="row">
+                <span>Preenchimento labial</span>
+                <span>22</span>
+                <span class="money">R$ 17.250</span>
+            </div>
+
+            <div class="row">
+                <span>Criolipólise</span>
+                <span>12</span>
+                <span class="money">R$ 17.350</span>
+            </div>
+
+            <div class="row">
+                <span>Microagulhamento</span>
+                <span>11</span>
+                <span class="money">R$ 19.825</span>
+            </div>
+
+            <div class="row">
+                <span>Peeling químico</span>
+                <span>12</span>
+                <span class="money">R$ 13.330</span>
+            </div>
+
+            <div class="row">
+                <span>Peeling diamante</span>
+                <span>8</span>
+                <span class="money">R$ 19.650</span>
+            </div>
+
+            <div class="row">
+                <span>Drenagem linfática</span>
+                <span>3</span>
+                <span class="money">R$ 15.370</span>
+            </div>
+        </div>
+
+        <!-- GRÁFICO -->
+        <div class="chart-box">
+            <h4>Distribuição</h4>
+            <div class="chart"></div>
+        </div>
+
+    </div>
+
+</main>
+
+</body>
+</html>

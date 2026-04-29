@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Pacientes</title>
+<link rel="stylesheet" href="../css/teladepacienteBIO.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+    <div class="logo">
+        <img src="logo.png" alt="logo">
+        <div>
+            <h1>Bio Planner</h1>
+            <span>BIOMEDICINA ESTÉTICA</span>
+        </div>
+    </div>
+
+    <nav>
+        <a href="telainicialbio.html">Inicio </a>
+        <a href="teladepacienteBIO.html" class="active">Pacientes</a>
+        <a href="examesbio.html">Exames</a>
+        <a href="resultados.html">Resultados</a>
+        <a href="relatorios.html">Relatórios</a>
+        <a href="telaconfigbio.html">Configurações</a>
+    </nav>
+
+    <div class="user">
+        <span>🔔</span>
+        <div class="perfil">
+            <img src="user.jpg">
+            <div>
+                <strong>Dra. Juliana Martins</strong>
+                <p>Biomédica Esteta</p>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="container">
+
+  <!-- SIDEBAR -->
+  <div class="sidebar">
+
+    <div class="card">
+      <ul>
+        <li class="active">Todos os pacientes <span>248</span></li>
+        <li>Ativos <span>196</span></li>
+        <li>Em tratamento <span>142</span></li>
+        <li>Aguardando retorno <span>38</span></li>
+        <li>Inativos <span>12</span></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h4>Filtros rápidos</h4>
+      <ul>
+        <li>Peelings <span>64</span></li>
+        <li>Limpeza <span>58</span></li>
+        <li>Bioestimuladores <span>42</span></li>
+      </ul>
+    </div>
+
+    <div class="card calendar">
+  
+      <div class="calendar-header">
+        <button id="prev">◀</button>
+        <h4 id="mesAno"></h4>
+        <button id="next">▶</button>
+      </div>
+
+      <div class="calendar-grid header-days">
+        <div>D</div><div>S</div><div>T</div><div>Q</div><div>Q</div><div>S</div><div>S</div>
+      </div>
+
+      <div class="calendar-grid" id="dias"></div>
+
+    </div>
+
+  </div>
+
+  <!-- MAIN -->
+  <div class="main">
+
+    <div class="header">
+      <h1>Pacientes</h1>
+      <p>Gerencie e acompanhe o histórico dos pacientes</p>
+    </div>
+
+    <div class="main search">
+      <div class="search">
+        <input placeholder="Pesquisar...">
+        <select><option>Status</option></select>
+        <select><option>Tratamentos</option></select>
+        <select><option>Ordenar</option></select>
+      </div>
+
+      <div class="actions">
+        <button class="btn btn-outline">Importar</button>
+        <button class="btn btn-outline">Exportar</button>
+        <button class="btn btn-primary">+ Novo Paciente</button>
+      </div>
+    </div>
+
+    <!-- TABLE -->
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Paciente</th>
+          <th>Contato</th>
+          <th>Último atendimento</th>
+          <th>Tratamentos</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>
+            <div class="patient">
+              <div class="avatar"></div>
+              Julia Marinho
+            </div>
+          </td>
+          <td>(31) 98888-1234</td>
+          <td>12/03/2025</td>
+          <td><span class="tag">Peeling</span><span class="tag">Limpeza</span></td>
+          <td><span class="badge green">Ativo</span></td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="patient">
+              <div class="avatar"></div>
+              Beatriz Lobo
+            </div>
+          </td>
+          <td>(23) 97777-5678</td>
+          <td>08/03/2025</td>
+          <td><span class="tag">Bioestimulador</span></td>
+          <td><span class="badge blue">Em tratamento</span></td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="patient">
+              <div class="avatar"></div>
+              Maria Clara
+            </div>
+          </td>
+          <td>(31) 96666-4321</td>
+          <td>05/03/2025</td>
+          <td><span class="tag">Limpeza</span></td>
+          <td><span class="badge orange">Aguardando retorno</span></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="pagination">
+      <button>1</button>
+      <button class="active">2</button>
+      <button>3</button>
+    </div>
+
+  </div>
+
+</div>
+
+<script src="../js/calendario.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Configurações</title>
+<link rel="stylesheet" href="../css/telaconfigbio.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+    <div class="logo">
+        <img src="logo.png" alt="logo">
+        <div>
+            <h1>Bio Planner</h1>
+            <span>BIOMEDICINA ESTÉTICA</span>
+        </div>
+    </div>
+
+    <nav>
+        <a href="telainicialbio.html">Inicio </a>
+        <a href="teladepacienteBIO.html">Pacientes</a>
+        <a href="examesbio.html">Exames</a>
+        <a href="resultados.html">Resultados</a>
+        <a href="relatorios.html">Relatórios</a>
+        <a href="telaconfigbio.html" class="active">Configurações</a>
+    </nav>
+
+    <div class="user">
+        <span>🔔</span>
+        <div class="perfil">
+            <img src="user.jpg">
+            <div>
+                <strong>Dra. Juliana Martins</strong>
+                <p>Biomédica Esteta</p>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="layout">
+
+<!-- MENU LATERAL -->
+<aside class="sidebar">
+    <div class="menu-item active">⚙️ Geral</div>
+    <div class="menu-item">🏥 Perfil da Clínica</div>
+    <div class="menu-item">👥 Usuários</div>
+    <div class="menu-item">🔔 Notificações</div>
+    <div class="menu-item">📄 Templates</div>
+    <div class="menu-item">🔗 Integrações</div>
+    <div class="menu-item">🔒 Segurança</div>
+    <div class="menu-item">☁️ Backup</div>
+
+    <div class="help-box">
+        <p><strong>Precisa de ajuda?</strong></p>
+        <span>Fale com nosso suporte</span>
+    </div>
+</aside>
+
+<!-- CONTEÚDO -->
+<main class="content">
+
+    <div class="header-content">
+        <div>
+            <h2>Configurações</h2>
+            <p>Personalize sua experiência e gerencie as preferências do sistema.</p>
+        </div>
+
+        <button class="btn-primary">Salvar alterações</button>
+    </div>
+
+    <div class="grid">
+
+        <!-- CARD 1 -->
+        <div class="card">
+            <h3>Informações da Clínica</h3>
+
+            <label>Nome da clínica</label>
+            <input type="text" value="Bio Planner Estética Avançada">
+
+            <div class="row">
+                <div>
+                    <label>CNPJ</label>
+                    <input type="text" value="12.345.678/0001-90">
+                </div>
+
+                <div>
+                    <label>Telefone</label>
+                    <input type="text" value="(11) 99999-9999">
+                </div>
+            </div>
+
+            <label>Email</label>
+            <input type="text" value="contato@bioplanner.com.br">
+
+            <label>Endereço</label>
+            <input type="text" value="Av. Paulista, 1000 - São Paulo, SP">
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="card">
+            <h3>Aparência</h3>
+
+            <label>Tema</label>
+            <div class="tema">
+                <button class="active">☀️ Claro</button>
+                <button>🌙 Escuro</button>
+            </div>
+
+            <label>Cor principal</label>
+            <div class="cores">
+                <span class="cor ativo"></span>
+                <span class="cor azul"></span>
+                <span class="cor verde"></span>
+                <span class="cor laranja"></span>
+            </div>
+
+            <label>Logo</label>
+            <div class="upload">Clique para enviar</div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="card">
+            <h3>Notificações</h3>
+
+            <div class="switch">Lembretes de exames <input type="checkbox" checked></div>
+            <div class="switch">Resultados prontos <input type="checkbox" checked></div>
+            <div class="switch">Avisos da equipe <input type="checkbox" checked></div>
+            <div class="switch">Resumo diário <input type="checkbox"></div>
+        </div>
+
+        <!-- CARD 4 -->
+        <div class="card">
+            <h3>Usuários e Permissões</h3>
+
+            <label>Acesso padrão</label>
+            <select>
+                <option>Visualizador</option>
+            </select>
+
+            <div class="check"><input type="checkbox" checked> Permitir edição</div>
+            <div class="check"><input type="checkbox" checked> 2FA</div>
+            <div class="check"><input type="checkbox"> Registrar atividades</div>
+        </div>
+
+        <!-- CARD 5 -->
+        <div class="card">
+            <h3>Backup e Dados</h3>
+
+            <label>Frequência</label>
+            <select><option>Diário</option></select>
+
+            <label>Manter por</label>
+            <select><option>90 dias</option></select>
+
+            <button class="btn-outline">Executar backup</button>
+        </div>
+
+        <!-- CARD 6 -->
+        <div class="card">
+            <h3>Segurança</h3>
+
+            <div class="check"><input type="checkbox" checked> Criptografar dados</div>
+            <div class="check"><input type="checkbox" checked> Bloquear sessão</div>
+            <div class="check"><input type="checkbox" checked> Download de laudos</div>
+        </div>
+
+    </div>
+
+</main>
+
+</div>
+
+</body>
+</html>

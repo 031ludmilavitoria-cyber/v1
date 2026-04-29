@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #ffe4ec, #f8d7e6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* CONTAINER */
+.login-container {
+    text-align: center;
+}
+
+/* LOGO */
+.logo img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.logo h1 {
+    color: #d63384;
+    font-size: 28px;
+}
+
+.logo span {
+    font-size: 12px;
+    color: #888;
+    letter-spacing: 2px;
+}
+
+/* BOX */
+.login-box {
+    background: #fff;
+    margin-top: 20px;
+    padding: 40px;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(255, 105, 180, 0.2);
+}
+
+.login-box h2 {
+    margin-bottom: 25px;
+    color: #6c3483;
+}
+
+/* INPUTS */
+.input-group {
+    display: flex;
+    align-items: center;
+    background: #f5f5f5;
+    border-radius: 12px;
+    padding: 12px;
+    margin-bottom: 15px;
+}
+
+.input-group .icon {
+    margin-right: 10px;
+    font-size: 18px;
+    color: #d63384;
+}
+
+.input-group input {
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 100%;
+    font-size: 14px;
+}
+.lbl {
+    display: flex;
+    width: 100%;
+    padding-left: 6.7px; /*SIX SEVEN*/
+}
+
+/* LINK */
+.create {
+    display: block;
+    text-align: left;
+    font-size: 13px;
+    color: #d63384;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.create:hover {
+    text-decoration: underline;
+}
+
+/* BUTTONS */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #ff4da6, #d63384);
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    opacity: 0.9;
+}
+
+.btn-secondary {
+    background: #eee;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.btn-secondary:hover {
+    background: #ddd;
+}
