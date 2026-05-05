@@ -21,6 +21,11 @@ body{
     backdrop-filter: blur(10px);
     border-bottom: 1px solid #eee;
 }
+.navigator {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 .logo {
     display: flex;
@@ -29,7 +34,7 @@ body{
 }
 
 .logo img {
-    width: 50px;
+    width: 120px;
 }
 
 .logo h1 {

@@ -90,8 +90,9 @@ body {
 /* BOTÕES */
 .buttons {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 15px;
+    
 }
 
 .btn-primary {
@@ -101,6 +102,7 @@ body {
     padding: 10px 20px;
     border-radius: 12px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .btn-secondary {
@@ -109,12 +111,15 @@ body {
     padding: 10px 20px;
     border-radius: 12px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .btn-secondary:hover {
     background: #ddd;
+    text-decoration: none;
 }
 
 .btn-primary:hover {
     opacity: 0.9;
+    
 }
