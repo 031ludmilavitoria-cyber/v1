@@ -186,12 +186,11 @@ nav a.active {
 }
 
 /* AVATAR */
-.avatar {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background: #ddd;
-  margin: 0 auto 15px;
+.avatar { width: 100px; 
+  height: 100px; 
+  border-radius: 50%; 
+  background: #ddd; 
+  margin: 0 auto 15px; 
 }
 
 /* TEXT */
