@@ -30,41 +30,42 @@
 
             <div class="input-group">
                 <i class="fa-regular fa-user"></i>
-                <input type="text" placeholder="Nome">
+                <input type="text" placeholder="Nome" id="txt-nome">
             </div>
 
             <div class="input-group">
                 <i class="fa-regular fa-envelope"></i>
-                <input type="email" placeholder="Email">
+                <input type="email" placeholder="Email" id="txt-email">
             </div>
 
             <div class="input-group">
                 <i class="fa-regular fa-calendar"></i>
-                <input type="text" placeholder="__/__/____">
+                <input type="date" id="txt-data">
             </div>
 
             <div class="input-group">
                 <i class="fa-solid fa-lock"></i>
-                <input type="password" placeholder="Senha">
+                <input type="password" placeholder="Senha" id="txt-senha">
             </div>
 
             <label class="confirm">Confirme a Senha</label>
 
             <div class="input-group">
                 <i class="fa-solid fa-lock"></i>
-                <input type="password" placeholder="Confirmar senha">
+                <input type="password" placeholder="Confirmar senha" id="txt-confirma">
             </div>
 
             <!-- CHECKBOX -->
             <div class="options">
-                <label><input type="checkbox"> Masculino</label>
-                <label><input type="checkbox"> Feminino</label>
-                <label><input type="checkbox"> Administrador</label>
+                <label><input type="checkbox" id="check-masculino"> Masculino</label>
+                <label><input type="checkbox" id="check-feminino"> Feminino</label>
+                <label><input type="checkbox" id="check-admin"> Administrador</label>
             </div>
 
             <!-- BOTÕES -->
+             <h4 id="lbl-error"></h4>
             <div class="buttons">
-                <a href="../html/telainicialcliente.html"class="btn-primary">Concluir Cadastro</a>
+                <a class="btn-primary" onclick="cadastrar()">Concluir Cadastro</a>
 
             </div>
 
@@ -72,6 +73,6 @@
     </div>
 
 </div>
-
+<script src="../js/cadastro.js"></script>
 </body>
 </html>

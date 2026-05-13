@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - Bio Planner</title>
     <link rel="stylesheet" href="../css/login.css">
-<link rel="stylesheet" href="imagem-logo.css">
+<link rel="stylesheet" href="../img/LOGO.png">
 </head>
 
 <body>
@@ -19,13 +19,13 @@
 
                 <label class="lbl email">Email</label>
                 <div class="input-group">
-                        <input type="email" placeholder="Digite seu email" required>
+                        <input type="email" placeholder="Digite seu email" required id="txt-email">
                 </div>
 
             
                 <label class="lbl pass">Senha</label>
                 <div class="input-group">
-                        <input type="password" placeholder="Digite sua senha" required>
+                        <input type="password" placeholder="Digite sua senha" required id="txt-senha">
                 </div>
 
                 <a href="#" class="create">Recuperar senha</a>
@@ -33,13 +33,13 @@
         
 
                 <div class="buttons">
-                <button class="btn-primary" href="../html/telaconfigcliente.html">Entrar</button>
+                <button class="btn-primary" onclick="login()">Entrar</button>
                 <button class="btn-secondary">Limpar</button>
             </div>
         </form>
     </div>
 
 </div>
-
+<script src="../js/login.js"></script>
 </body>
 </html>
