@@ -125,3 +125,11 @@ body {
 .btn-secondary:hover {
     background: #ddd;
 }
+
+.tipo-usuario {
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    justify-content: left;
+    margin-bottom: 20px;
+}
