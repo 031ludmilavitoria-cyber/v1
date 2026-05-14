@@ -24,7 +24,7 @@ function login() {
 
             // página admin
             window.location.href = "telainicialbio.html";
-            alert("Login Dr");
+            alert("Login Drbn");
 
         } else {
 

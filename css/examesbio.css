@@ -145,6 +145,10 @@ h2 {
     background: #f8d7e6;
     border-radius: 10px;
 }
+.icon img {
+    width: 50px;
+    border-radius: 10px;
+}
 
 /* FOOTER */
 .footer {

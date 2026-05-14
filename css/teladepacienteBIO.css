@@ -233,6 +233,11 @@ nav a.active {
   background: #ddd;
 }
 
+.avatar img {
+  width: 36px;
+  border-radius: 50%;
+}
+
 /* TAGS */
 .tag {
   padding: 4px 8px;
